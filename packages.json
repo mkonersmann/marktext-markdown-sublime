@@ -2,16 +2,16 @@
     "schema_version": "1.1",
     "packages": [
         {
-            "name": "Mou.app Markdown",
-            "author": "Ryan Wood",
-            "description": "Open your current file with the Mou.app markdown editor",
-            "homepage": "https://github.com/rwoody/mou-markdown-sublime",
-            "last_modified": "2014-09-28 01:06:01",
+            "name": "Typora.app Markdown",
+            "author": "Asoul",
+            "description": "Open your current file with the Typora.app markdown editor",
+            "homepage": "https://github.com/Asoul/typora-markdown-sublime",
+            "last_modified": "2015-12-20 18:23:09",
             "platforms": {
                 "osx": [
                     {
-                        "version": "1.0.1",
-                        "url": "https://github.com/rwoody/mou-markdown-sublime"
+                        "version": "1.0.0",
+                        "url": "https://github.com/Asoul/typora-markdown-sublime"
                     }
                 ]
             }
