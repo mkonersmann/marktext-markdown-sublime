@@ -3,6 +3,8 @@
 
 Adds a handy command and menu item to open your current file with [Typora.app](http://www.typora.io/).
 
+![Screenshot](screenshot.png)
+
 ## Installation Instructions
 
 **Package Installer**
