@@ -1,7 +1,7 @@
-# Typora.app Markdown - Sublime Text 2/3
+# Typora Markdown for Linux - Sublime Text 2/3
 
 
-Adds a handy command and menu item to open your current file with [Typora.app](http://www.typora.io/).
+Adds a handy command and menu item to open your current file with [Typora](http://www.typora.io/).
 
 ![Screenshot](screenshot.png)
 
@@ -9,17 +9,18 @@ Adds a handy command and menu item to open your current file with [Typora.app](h
 
 **Package Installer**
 
-* Install [Sublime Package Control](https://packagecontrol.io/)
+* Install [Sublime Package Control](https://packagecontrol.io/) if not already installed.
+* Add this repository to package control: Select "Package Control: Add Repository" from the Command Palette (`super+shift+p`) and paste this repository ('https://github.com/mkonersmann/typora-markdown-sublime')
 * Select "Package Control: Install Package" from the Command Palette (`super+shift+p`)
-* Find "Typora.app Markdown" and select
+* Find "typora-markdown-sublime" and select
 
 ## Usage
 
-With the view selected containing the file you wish to preview in Marked:
+With the view selected containing the file you wish to preview in Typora:
 
 **Command Palette:**
 
-* Select "Markdown: Open with Typora.app" from the Command Palette (`super+shift+p`)
+* Select "Markdown: Open with Typora" from the Command Palette (`super+shift+p`)
 
 **Menus:**
 
