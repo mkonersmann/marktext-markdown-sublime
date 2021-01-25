@@ -15,7 +15,7 @@ class TyporaCommand(sublime_plugin.WindowCommand):
         for k, v in proc_env.items():
             proc_env[k] = os.path.expandvars(v).encode(encoding)
 
-        subprocess.call(['open', '-a', 'Typora', filename], env=proc_env)
+        subprocess.call(['typora', filename], env=proc_env)
 
     def is_enabled(self):
         return True
