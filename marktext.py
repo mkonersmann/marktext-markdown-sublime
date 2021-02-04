@@ -4,7 +4,7 @@ import subprocess
 import sublime
 import sublime_plugin
 
-class TyporaCommand(sublime_plugin.WindowCommand):
+class MarkTextCommand(sublime_plugin.WindowCommand):
     def run(self):
         filename = self.window.active_view().file_name()
         if filename is None:
@@ -15,7 +15,7 @@ class TyporaCommand(sublime_plugin.WindowCommand):
         for k, v in proc_env.items():
             proc_env[k] = os.path.expandvars(v).encode(encoding)
 
-        subprocess.call(['typora', filename], env=proc_env)
+        subprocess.call(['marktext', filename], env=proc_env)
 
     def is_enabled(self):
         return True

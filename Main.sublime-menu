@@ -4,8 +4,8 @@
         "children":
         [
             {
-                "caption": "Open with Typora",
-                "command": "typora"
+                "caption": "Open with Mark Text",
+                "command": "marktext"
             }
         ]
     }

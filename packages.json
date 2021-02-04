@@ -2,16 +2,16 @@
     "schema_version": "1.1",
     "packages": [
         {
-            "name": "Open with Typora",
+            "name": "Open with Mark Text",
             "author": "Marco Konersmann",
-            "description": "Open your current file with the Typora markdown editor",
-            "homepage": "https://github.com/mkonersmann/typora-markdown-sublime",
-            "last_modified": "2021-01-25 11:10:00",
+            "description": "Open your current file with the Mark Text markdown editor",
+            "homepage": "https://github.com/mkonersmann/marktext-markdown-sublime",
+            "last_modified": "2021-02-04",
             "platforms": {
                 "linux": [
                     {
                         "version": "1.0.0",
-                        "url": "https://github.com/mkonersmann/typora-markdown-sublime"
+                        "url": "https://github.com/mkonersmann/marktext-markdown-sublime"
                     }
                 ]
             }

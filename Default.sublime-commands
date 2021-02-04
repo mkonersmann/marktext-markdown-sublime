@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Markdown: Open with Typora",
-        "command": "typora"
+        "caption": "Markdown: Open with Mark Text",
+        "command": "marktext"
     }
 ]
